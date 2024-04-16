@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <title>Login</title>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="bg-blue-600 p-4 text-white flex justify-between">
+    <div>
+      <h1 class="text-3xl font-bold">AI Blog Generator</h1>
+    </div>
+    <div>
+      <a href="#" class="text-white hover:underline">Logout</a>
+      <a href="#" class="text-white hover:underline">Signup</a>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <div class="flex items-center justify-center h-screen">
+    <div class="bg-white p-8 shadow-md rounded-lg max-w-md w-full">
+
+      <!-- Login form -->
+      <form class="space-y-4 ">
+        <h2 class="text-xl font-semibold">Login</h2>
+        <div>
+          <label for="username" class="block mb-1 font-medium">Username</label>
+          <input type="text" id="username" name="username" placeholder="Enter your username..."
+            class="w-full p-2 border rounded">
+        </div>
+        <div>
+          <label for="password" class="block mb-1 font-medium">Password</label>
+          <input type="text" id="password" name="password" placeholder="Enter your password..."
+            class="w-full p-2 border rounded">
+        </div>
+
+        <button type="submit" class="w-full bg-blue-600 text-white p-2 rounded hover:bg-blue-700">Login</button>
+      </form>
+
+    </div>
+  </div>
+
+  <footer class="text-center p-4 text-black mt-6">
+    Made using <a href="https://www.youtube.com/watch?v=ftKiHCDVwfA">this</a> Code with Tomi YouTube tutorial. Check out
+    their channel <a href="https://www.youtube.com/c/CodeWithTomi">here</a>.
+  </footer>
+</body>
+
+</html>
